@@ -1,0 +1,19 @@
+.navbar-toggler{
+    background: cadetblue !important;
+    font-size: small !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+}
+.navbar-toggler-icon {
+    font-size: 22px !important;
+}
+.navbar a {
+    color: #fff !important;
+}
+.navbar a:hover {
+    color:darkorchid
+}
+
+.mainNav {
+    background-color: #061A3A !important;
+}
