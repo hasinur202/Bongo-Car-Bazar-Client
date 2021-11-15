@@ -1,6 +1,5 @@
-# BONGO TRAVEL
-Project Live link: [Click here](https://bongo-travel.firebaseapp.com/).
-Project Live link1: [Click here](https://bongo-travel.web.app/).
+# BONGO CAR BAZAR
+Project Live link: [Click here](https://bongo-car-bazar.web.app/).
 
 ## Technologies
 
@@ -13,17 +12,18 @@ This project developed by ReactJs.
 * Heroku Cloud Server
 
 ## Some Available Feature
-* Have home page for 'Bongo Travel'
-* Have popular tours
-* All tours and tours details
+* Have home page for 'Bongo Car Bazar'
+* Have popular cars
+* All cars and cars details
 * Contact info
 * About info
-* Tourist can make an appointment easily.
-* Anyone can easily find any tourism places from Bongo Travel.
-* User can see his/her booking list.
-* Can delete booking before admins approval.
-* Admin can see all users booking list.
-* and can ability to approve or reject booking item.
+* Everyone can make order easily.
+* Anyone can easily find any car from Bongo Car Bazar.
+* User can see his/her orders list.
+* Can delete order before admins approval.
+* Admin can see all users order list.
+* Admin can make another admin.
+* and can ability to approve or reject order item.
 
 ## Some Instructions for new user
 * Have to login first in this site.

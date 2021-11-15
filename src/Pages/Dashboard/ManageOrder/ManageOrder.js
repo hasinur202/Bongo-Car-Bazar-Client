@@ -7,7 +7,7 @@ const ManageOrder = () => {
     let sL = 0;
 
     useEffect(() => {
-        const url = 'http://localhost:5000/all-orders';
+        const url = 'https://bongo-car-bazar.herokuapp.com/all-orders';
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data));
@@ -17,7 +17,7 @@ const ManageOrder = () => {
     const handleApproveBooking = id => {
     const proceed = window.confirm('Are you sure, you want to approve?');
     if (proceed) {
-        const url = `http://localhost:5000/approve-order/${id}`;
+        const url = `https://bongo-car-bazar.herokuapp.com/approve-order/${id}`;
         fetch(url, {
             method: 'PUT'
         })
@@ -36,7 +36,7 @@ const ManageOrder = () => {
     const handleRejectBooking = id => {
     const proceed = window.confirm('Are you sure, you want to reject?');
     if (proceed) {
-        const url = `http://localhost:5000/reject-order/${id}`;
+        const url = `https://bongo-car-bazar.herokuapp.com/reject-order/${id}`;
         fetch(url, {
             method: 'PUT'
         })
@@ -55,7 +55,7 @@ const ManageOrder = () => {
     const handleDeleteBooking = id => {
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:5000/order/${id}`;
+            const url = `https://bongo-car-bazar.herokuapp.com/order/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

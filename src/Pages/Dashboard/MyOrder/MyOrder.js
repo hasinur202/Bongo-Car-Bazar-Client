@@ -9,7 +9,7 @@ const MyOrder = () => {
     let sL = 0;
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders/${user.uid}`;
+        const url = `https://bongo-car-bazar.herokuapp.com/orders/${user.uid}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data));
@@ -19,7 +19,7 @@ const MyOrder = () => {
      const handleDeleteBooking = id => {
         const proceed = window.confirm('Are you sure, you want to delete?');
         if (proceed) {
-            const url = `http://localhost:5000/order/${id}`;
+            const url = `https://bongo-car-bazar.herokuapp.com/order/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

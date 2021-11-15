@@ -10,7 +10,7 @@ const ProductDetails = () => {
     const { _id } = useParams();
 
     useEffect(() => {
-        const url = `http://localhost:5000/products/${_id}`;
+        const url = `https://bongo-car-bazar.herokuapp.com/products/${_id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data));
