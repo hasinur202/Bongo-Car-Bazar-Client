@@ -43,7 +43,7 @@ const AllProduct = () => {
                         <thead>
                             <tr>
                                 <th scope="col">SL. No.</th>
-                                <th scope="col">Booking Id</th>
+                                <th scope="col">Product Id</th>
                                 <th scope="col">Product Name</th>
                                 <th scope="col">Price</th>
                                 <th scope="col">Action</th>
