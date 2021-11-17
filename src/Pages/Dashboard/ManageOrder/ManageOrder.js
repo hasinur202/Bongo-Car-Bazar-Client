@@ -96,7 +96,7 @@ const ManageOrder = () => {
                                     <td>{order.email}</td>
                                     <td>{order.phone}</td>
                                     <td>
-                                    { order.status === 2 ? <span>Pending</span> : <span>Approved</span>}
+                                    { order.status === 2 ? <span>Pending</span> : (order.status === 3 ? <span>Rejected</span> : <span>Approved</span>)}
                                     </td>
                                     <td>
                                         {
