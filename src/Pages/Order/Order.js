@@ -11,9 +11,10 @@ const Order = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const { user } = useAuth();
     const history = useHistory();
+
     const onSubmit = data => {
-        data.product_id = _id;
-        data.uid = user.uid
+        data.product_id = _id
+        data.email = user.email
         data.status = 2
 
         fetch('https://bongo-car-bazar.herokuapp.com/orders', {

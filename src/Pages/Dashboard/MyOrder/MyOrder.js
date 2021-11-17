@@ -9,7 +9,7 @@ const MyOrder = () => {
     let sL = 0;
 
     useEffect(() => {
-        const url = `https://bongo-car-bazar.herokuapp.com/orders/${user.uid}`;
+        const url = `https://bongo-car-bazar.herokuapp.com/orders/${user.email}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setOrders(data));
@@ -38,7 +38,7 @@ const MyOrder = () => {
         <section id="appointment" className="appointment section-bg">
             <div className="container" data-aos="fade-up">
                 <div className="section-title">
-                    <h2>My Booking List</h2>
+                    <h2>My Order List</h2>
                 </div>
                 <div className="table-responsive">
                     <table className="table table-striped">
